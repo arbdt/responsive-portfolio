@@ -3,14 +3,16 @@
     <head>
         <!-- page title -->
         <title>
-
+            Your Name | Contact
         </title>
         <!-- bootstrap style link -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="custom-style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a class="navbar-brand" href="#">Your Name</a> <!-- navbar heading -->
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-custom">
+            <a class="navbar-brand" href="index.html">Your Name</a> <!-- navbar heading -->
             <!-- collapsed navbar button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,34 +33,41 @@
             </div>
         </nav>
 
-        <div class="container">
+        <div class="container"> <!-- main content container -->
             <div class="row">
             <div class="col-sm-7">
-            <div class="card mt-sm-5">
-                <div class="card-body">
-                    <!-- page header -->
-                    <h1>Contact</h1>
-                    <hr>   
-                <!-- contacts form -->
-                <form>
-                    <div class="form-group"> <!-- name -->
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName">
+                <div class="card mt-sm-5">
+                    <div class="card-body">
+                        <!-- page header -->
+                        <h1>Contact</h1>
+                        <hr>   
+                        <!-- contacts form -->
+                        <form>
+                            <div class="form-group"> <!-- name -->
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Name">
+                            </div>
+                            <div class="form-group"> <!-- email -->
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                            <div class="form-group"> <!-- message body -->
+                                <label for="inputMessage">Message</label>
+                                <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button> <!-- send button -->
+                        </form>
                     </div>
-                    <div class="form-group"> <!-- email -->
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control" id="inputEmail">
-                    </div>
-                    <div class="form-group"> <!-- message body -->
-                        <label for="inputMessage">Message</label>
-                        <textarea class="form-control" id="inputMessage" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button> <!-- send button -->
-                </form>
-            </div>
+                </div>
             </div>
             </div>
         </div>
+
+        <footer class="footer"> <!-- page footer code from getbootstrap.com -->
+            <div class="container">
+                <p>&copy; 2020</p>
+            </div>
+        </footer>
 
         <!-- Bootstrap javascripts -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
