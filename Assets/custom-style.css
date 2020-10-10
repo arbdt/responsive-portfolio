@@ -1,4 +1,12 @@
-/* custom CSS for colours */
+/*
+Custom CSS for colours and styling
+
+primary: blue #004080;
+secondary: red 800000 / bright red cc0000 / light brown #a2875c;
+neutral-dark: dark grey #e3e3e3;
+neutral-light: light grey #f6f6f6;
+
+ */
 
 /* custom background color */
 body {
@@ -7,56 +15,78 @@ body {
     min-height: 100%;
     color: #3e3e3e;
 }
+
+a {
+    color: #a2875c;
+}
+
 /* heading styles */
 h1 {
     font-family: monospace;
-    color: #992727;
+    color: #a2875c;
 }
 
 h3, h4, h5 {
     font-family: monospace;
     font-weight: bold;
-    color: #004080;
+    color: #073763;
+}
+
+hr {
+    border-color: #a2875c;
 }
 
 /* navbar appearance customisations */
 .bg-custom {
-    background-color: #004080;
+    background-color: #073763;
     font-family: monospace;
+    border-bottom: 5px solid #a2875c;
 }
 .bg-custom .navbar-brand{
-    color: #80b3e7;
+    color: #a2875c;
     font-size: 1.5rem;
-}
-.bg-custom .nav-link {
-    font-size: 1rem;
+    font-weight: bold;
 }
 
+.bg-custom .nav-link {
+    font-size: 1rem;
+    color: #a2875c;
+}
+
+.bg-custom .nav-link :hover{
+    color: #f6f6f6;
+}
+
+/* button appearance customisations */
 .btn-cust-red {
-    background-color: #992727;
+    background-color: #a2875c;
     color: #f6f6f6;
     opacity:85%;
+    font-family: monospace;
 }
 
 .btn-cust-blue {
-    background-color: #004080;
+    background-color: #073763;
     color: #f6f6f6;
     opacity: 85%;
+    font-family: monospace;
 }
 
 .btn-cust-red:hover {
-    background-color: #992727;
+    background-color: #a2875c;
     color: #ffffff;
     opacity: 100%;
 }
 
 .btn-cust-blue:hover {
-    background-color: #004080;
+    background-color: #073763;
     color: #ffffff;
     opacity: 100%;
 }
 
+/* bottom footer bar panel */
 .footer {
+    border-top: 5px solid #a2875c;
     bottom: 0px;
     position: fixed;
     margin-bottom: 0;
@@ -65,7 +95,7 @@ h3, h4, h5 {
     height: 60px;
     text-align: center;
     line-height: 60px;
-    background-color: #80b3e7;
+    background-color: #073763;
     color: #f6f6f6;
     font-family: monospace;
     font-size: 12pt;
