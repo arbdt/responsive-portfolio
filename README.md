@@ -10,4 +10,4 @@ The pages all have a matching custom style overlaid on top of the Bootstrap fram
 ### Preview and Link
 The portfolio site can be found [here](https:\\arbdt.github.io/responsive-portfolio).
 
-![image](.\Assets\Images\preview-portfolio.png)
+![image](./Assets/Images/preview-portfolio.png)
