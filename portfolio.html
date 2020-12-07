@@ -12,6 +12,7 @@
         
         <!-- bootstrap stylesheet link -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/f2ae3e928a.js" crossorigin="anonymous"></script> <!-- font-awesome link -->
         <link rel="stylesheet" type="text/css" href="./Assets/custom-style.css"> <!-- custom colors and styles -->
     </head>
     
@@ -52,11 +53,14 @@
                             <h3>Major Projects</h3>
                             <div class="row"> <!-- showcase row 1 -->
                                 <div class="col-lg-12">
-                                    <div class="card mb-4"> <!-- showcase item 1 -->
+                                    <div class="project-card card mb-4"> <!-- showcase item 1 -->
                                         <img class="card-img-top" src="./Assets/Images/iss-tracker-preview.png" alt="preview of ISS tracker">
                                         <div class="card-body">
                                           <h4 class="card-title">ISS Tracker</h4>
-                                          <p class="card-text">A site that gets International Space Station data and displays it to the user with a map of the current coordinates.</p>
+                                          <p class="card-text">A site that gets International Space Station data via Ajax calls and displays it to the user with a map of the current coordinates. 
+                                              The ISS data is from WhereTheISS.At and Open-Notify.Org, and map used is the Google Maps service. The page is styled using Semantic UI.
+                                          </p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / JS / Jquery (Ajax) / Semantic UI</p>
                                           <a href="https://arbdt.github.io/bcs-project-1/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://www.github.com/arbdt/bcs-project-1/" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
@@ -65,11 +69,12 @@
                             </div>
                             <div class="row"> <!-- showcase row 2 -->
                                 <div class="col-lg-12">
-                                    <div class="card mb-4"> <!-- showcase item 2 -->
+                                    <div class="project-card card mb-4"> <!-- showcase item 2 -->
                                         <img class="card-img-top" src="./Assets/Images/coffee_rater_preview.png" alt="preview of Coffee Rater">
                                         <div class="card-body">
                                           <h4 class="card-title">Coffee Rater</h4>
                                           <p class="card-text">A Heroku-hosted MVC site that allows visitors to upload coffees and reviews for coffees to a MySQL/JawsDB database.</p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / JS / Jquery (Ajax) / Express.js / Handlebars / Sequelize / MySQL</p>
                                           <a href="https://salty-forest-45628.herokuapp.com/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://github.com/dcon0610/Project2" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
@@ -79,22 +84,24 @@
                             <h3>Other Work</h3>
                             <div class="row"> <!-- first minor row -->
                                 <div class="col-lg-6">
-                                    <div class="card mb-4"> <!-- item 1 -->
+                                    <div class="project-card card mb-4"> <!-- item 1 -->
                                         <img class="card-img-top" src="./Assets/Images/preview-refactor.png" alt="preview of refactored website">
                                         <div class="card-body">
                                           <h5 class="card-title">Code Refactoring</h5>
-                                          <p class="card-text">Altered website HTML and CSS to have a more semantic and SEO-friendly structure.</p>
+                                          <p class="card-text">Was provided with an existing site's HTML and CSS files, and was tasked with altering the code to have a more semantic and SEO-friendly structure.</p>
+                                          <p class="card-text portfolio-tech">HTML / CSS</p>
                                           <a href="https://arbdt.github.io/bcs-homework-1/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://www.github.com/arbdt/bcs-homework-1/" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="card mb-4"> <!-- item 2 -->
+                                    <div class="project-card card mb-4"> <!-- item 2 -->
                                         <img class="card-img-top" src="./Assets/Images/preview-portfolio.png" alt="preview of responsively designed portfolio">
                                         <div class="card-body">
                                           <h5 class="card-title">Responsive Portfolio</h5>
-                                          <p class="card-text">A portfolio using the Bootstrap framework for responsive design.</p>
+                                          <p class="card-text">This very website. This was produced as a BootCampSpot assignment, and uses the Bootstrap framework for responsive design.</p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / Bootstrap</p>
                                           <a href="https://www.github.com/arbdt/responsive-portfolio/" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
                                     </div>
@@ -102,22 +109,25 @@
                             </div>
                             <div class="row"> <!-- second row of link cards -->
                                 <div class="col-lg-6">
-                                    <div class="card mb-4"> <!-- item 3 -->
+                                    <div class="project-card card mb-4"> <!-- item 3 -->
                                         <img class="card-img-top" src="./Assets/Images/preview-pwordgenerator.png" alt="preview of JavaScript password generator">
                                         <div class="card-body">
                                           <h5 class="card-title">Password Generator</h5>
-                                          <p class="card-text">A JavaScript-based password generator that uses user-set parameters.</p>
+                                          <p class="card-text">A JavaScript-based password generator. Alert/prompt/confirm dialogs are used to allow the user to specify parameters such as allowed character sets and length.
+                                              A password is generated based on the user's selections and displayed on the page.</p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / JS</p>
                                           <a href="https://arbdt.github.io/javascript-password-generator/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://www.github.com/arbdt/javascript-password-generator/" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="card mb-4"> <!-- item 4 -->
+                                    <div class="project-card card mb-4"> <!-- item 4 -->
                                         <img class="card-img-top" src="./Assets/Images/preview-codequiz.png" alt="preview of JavaScript code quiz">
                                         <div class="card-body">
                                           <h5 class="card-title">JavaScript Code Quiz</h5>
-                                          <p class="card-text">A JavaScript-based coding quiz that tracks time scores via local storage.</p>
+                                          <p class="card-text">A JavaScript-based coding quiz. It makes use of intervals for time tracking and saves scores (time remaining) in local storage.</p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / JS / Bootstrap</p>
                                           <a href="https://arbdt.github.io/code-quiz/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://www.github.com/arbdt/code-quiz/" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
@@ -126,22 +136,28 @@
                             </div>
                             <div class="row"> <!-- third row -->
                                 <div class="col-lg-6">
-                                    <div class="card mb-4"> <!-- item 5 -->
+                                    <div class="project-card card mb-4"> <!-- item 5 -->
                                         <img class="card-img-top" src="./Assets/Images/preview-scheduler.png" alt="preview of JavaScript day schedule">
                                         <div class="card-body">
                                           <h5 class="card-title">Work Day Scheduler</h5>
-                                          <p class="card-text">A JavaScript-based work day schedule that uses local storage to save entries.</p>
+                                          <p class="card-text">A JavaScript-based work day schedule app. Local storage is used to hold the entries.
+                                               Moment.js is used to display the current day and date, and to color each time slot according to past/future/present.</p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / JS / Moment.js / Bootstrap</p>
                                           <a href="https://arbdt.github.io/work-day-scheduler/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://www.github.com/arbdt/work-day-scheduler/" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="card mb-4"> <!-- item 6 -->
+                                    <div class="project-card card mb-4"> <!-- item 6 -->
                                         <img class="card-img-top" src="./Assets/Images/weather-dash-preview.png" alt="preview of weather dashboard">
                                         <div class="card-body">
                                           <h5 class="card-title">Weather Dashboard</h5>
-                                          <p class="card-text">A page using Open Weather Map APIs to display data for user-entered locations.</p>
+                                          <p class="card-text">A page that displays current and forecast weather data for a location entered by the user.
+                                              Entered locations are saved in local storage for later access. JQuery Ajax is used to get the data from APIs supplied by Open Weather Map.
+                                              Moment.js is used for date display and manipulation.
+                                          </p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / JS / Jquery (Ajax) / Moment.js / Bootstrap</p>
                                           <a href="https://arbdt.github.io/weather-dashboard/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://www.github.com/arbdt/weather-dashboard/" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
@@ -150,22 +166,28 @@
                             </div>
                             <div class="row"> <!-- fourth row -->
                                 <div class="col-lg-6">
-                                    <div class="card mb-4"> <!-- item 7 -->
+                                    <div class="project-card card mb-4"> <!-- item 7 -->
                                         <img class="card-img-top" src="./Assets/Images/note-page-preview.png" alt="preview of Note Taker">
                                         <div class="card-body">
                                           <h5 class="card-title">Note Taker</h5>
-                                          <p class="card-text">An web app that uses Express routing to display, save, update, or delete notes.</p>
+                                          <p class="card-text">A web app that uses Express routing to display, save, update, or delete notes.
+                                              The notes are saved to and read from a JSON file stored on the server.
+                                          </p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / JS / Node.js / Express.js / Bootstrap</p>
                                           <a href="https://lit-inlet-27170.herokuapp.com/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://github.com/arbdt/express-note-app" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="card mb-4"> <!-- item 8 -->
+                                    <div class="project-card card mb-4"> <!-- item 8 -->
                                         <img class="card-img-top" src="./Assets/Images/eat-da-burger-preview.png" alt="preview of Eat Da Burger">
                                         <div class="card-body">
                                           <h5 class="card-title">Eat Da Burger</h5>
-                                          <p class="card-text">A web app that demonstrates use of a database and ORM with an MVC design.</p>
+                                          <p class="card-text">A MVC-paradigm web app that allows users to set burger items to 'devoured' or 'not devoured', and also to add a burger item.
+                                              It uses Express for routing, Handlebars and Bootstrap for page layout and content, and MySQL to store the burger items.
+                                            A custom ORM is used to interface between the database and the page.</p>
+                                          <p class="card-text portfolio-tech">HTML / CSS / JS / Node.js / Express.js / Handlebars / MySQL / Bootstrap</p>
                                           <a href="https://warm-atoll-82512.herokuapp.com/" class="btn btn-cust-blue">Visit Site</a>
                                           <a href="https://github.com/arbdt/burger" class="btn btn-cust-red">Visit GitHub</a>
                                         </div>

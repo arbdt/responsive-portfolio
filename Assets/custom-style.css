@@ -57,6 +57,18 @@ hr {
     color: #f6f6f6;
 }
 
+/* custom project card styling */
+.project-card {
+    border-color: #a2875c;
+}
+
+/* portfolio item technology lists */
+.portfolio-tech {
+    color:  #a2875c;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
 /* button appearance customisations */
 .btn-cust-red {
     background-color: #a2875c;
