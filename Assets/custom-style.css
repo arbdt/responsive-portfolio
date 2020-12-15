@@ -57,6 +57,11 @@ hr {
     color: #f6f6f6;
 }
 
+/* index links section */
+.centred-links {
+    text-align: center;
+}
+
 /* custom project card styling */
 .project-card {
     border-color: #a2875c;
